@@ -213,7 +213,7 @@ int main(int argc,char** argv)
         renderer_far_ = 1000.0;
         renderer_focal_length_x_ = 535.566011;//Kinect ;//carmine 535.566011; //dataset 571.9737
         renderer_focal_length_y_ = 537.168115;//Kinect //carmine 537.168115;  //dataset 571.0073
-        stl_file="/home/yake/catkin_ws/src/linemod_pose_est/config/stl/boxNew.stl";
+        stl_file="/home/yake/catkin_ws/src/linemod_pose_est/config/stl/boxNew.stl";  
         template_output_path="/home/yake/catkin_ws/src/linemod_pose_est/config/data/boxNew_longDistance_linemod_xtion_templates.yml";
         renderer_params_output_path="/home/yake/catkin_ws/src/linemod_pose_est/config/data/boxNew_longDistance_linemod_xtion_renderer_params.yml";
 //        ply_file_path="/home/yake/catkin_ws/src/linemod_pose_est/config/stl/triangle_board.ply";

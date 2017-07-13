@@ -1,0 +1,9 @@
+ roslaunch openni2_launch openni2.launch 
+
+
+rosrun linemod_pose_estimation linemod_carmine_detect_node "/home/tony/ros/indigo/baxter_ws/src/birl_baxter/birl_baxter_vision/object_detection_linemod/linemod_pose_estimation/config/data/boxNew_longDistance_linemod_xtion_templates.yml" "/home/tony/ros/indigo/baxter_ws/src/birl_baxter/birl_baxter_vision/object_detection_linemod/linemod_pose_estimation/config/data/boxNew_longDistance_linemod_xtion_renderer_params.yml" "/home/tony/ros/indigo/baxter_ws/src/birl_baxter/birl_baxter_vision/object_detection_linemod/linemod_pose_estimation/config/stl/boxNew.stl" 92 35 1e-5 0.02 0.05 20 10 4
+
+rostopic echo /object_pose
+
+92 越低识别率越多，误识别越大.
+renderer.cpp 训练模板
